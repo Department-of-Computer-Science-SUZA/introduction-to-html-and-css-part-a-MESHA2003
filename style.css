@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 20px;
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    align-content: center;
+}
+
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-content: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+}
+
+button:hover {
+    background-color:blue;
+}
+
+label {
+    margin-left: 5px;
+    margin-right: 15px;
+    text-align: center;
+}
+.custom-form-title {
+    font-size: 24px;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
